@@ -70,13 +70,13 @@ public:
 
         m_pTankMesh = new Mesh();
 
-        if (!m_pTankMesh->LoadMesh("C:/dev/projects/Content/phoenix_ugv.md2")) {
+        if (!m_pTankMesh->LoadMesh("C:/Users/sofya/source/repos/lr4 IiKG/lesson 25/Content/phoenix_ugv.md2")) {
             return false;
         }
 
         m_pSkyBox = new SkyBox(m_pGameCamera, m_persProjInfo);
 
-        if (!m_pSkyBox->Init("C:/dev/projects/Content/",
+        if (!m_pSkyBox->Init("C:/Users/sofya/source/repos/lr4 IiKG/lesson 25/Content/",
             "sp3right.jpg",
             "sp3left.jpg",
             "sp3top.jpg",
