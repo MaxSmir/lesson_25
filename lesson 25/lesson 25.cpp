@@ -76,6 +76,7 @@ public:
 
         m_pSkyBox = new SkyBox(m_pGameCamera, m_persProjInfo);
 
+
         if (!m_pSkyBox->Init("C:/Users/sofya/source/repos/lr4 IiKG/lesson 25/Content/",
             "sp3right.jpg",
             "sp3left.jpg",
